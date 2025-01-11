@@ -2,7 +2,7 @@ import sqlite3
 from flask import g
 import click
 
-DATABASE = 'quiz_app1.db'  # Replace with your database file name
+DATABASE = 'quiz_app2.db'  # Replace with your database file name
 
 def get_db():
     if 'db' not in g:
