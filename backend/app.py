@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 cors = CORS(app, resources={
     r"/*": {
-        "origins": "http://localhost:5173",  # Frontend URL
+        "origins": "https://quizzzer-app.netlify.app/",  # Frontend URL
         # Allow sending cookies
         "supports_credentials": True 
         }
